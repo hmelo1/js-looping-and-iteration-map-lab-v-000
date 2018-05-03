@@ -15,3 +15,7 @@ function attributesToPhrase(users){
     return `${user.name} is from ${user.hometown}.`;
   })
 }
+
+const newEngineers = map(oldAccounts, function (account) {
+  return Object.assign({}, account, { accessLevel: 'admin' });
+});
