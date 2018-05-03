@@ -5,7 +5,7 @@ function lowerCaseDrivers(drivers){
 
 function nameToAttributes(names){
   let list_of_names = {};
-  return names.map(function (string){
+  return names.map(function (name){
     return string
   })
 }
