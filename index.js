@@ -11,11 +11,7 @@ function nameToAttributes(names){
 }
 
 function attributesToPhrase(users){
-  return users.map(users, function(user){
+  return map(users, function(user){
     return `${user.name} is from ${user.hometown}.`;
   })
 }
-
-const newEngineers = map(oldAccounts, function (account) {
-  return Object.assign({}, account, { accessLevel: 'admin' });
-});
