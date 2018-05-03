@@ -4,7 +4,9 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(names){
-
+  return names.map(function (string){
+    
+  })
 }
 
 const newEngineers = map(oldAccounts, function (account) {
