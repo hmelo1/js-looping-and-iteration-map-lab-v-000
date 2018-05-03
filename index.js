@@ -4,11 +4,8 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(names){
+  let full_names = {};
   return names.map(function (string){
-    
+
   })
 }
-
-const newEngineers = map(oldAccounts, function (account) {
-return Object.assign({}, account, { accessLevel: 'admin' });
-});
