@@ -11,8 +11,7 @@ function nameToAttributes(names){
 }
 
 function attributesToPhrase(users){
-  let hometowns = map(users, function(user){
-    return `${user.name} is from ${user.hometown}.`;
-  }) 
-  return hometowns
+  return users.map(users, function(user){
+    return `${user.name} is from ${user.hometown}.`
+  })
 }
