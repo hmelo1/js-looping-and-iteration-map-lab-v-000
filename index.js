@@ -9,3 +9,9 @@ function nameToAttributes(names){
     return {firstName: sep_name[0], lastName: sep_name[1]};
   });
 }
+
+function attributesToPhrase(users){
+  return users.map(users, function(user){
+    return `${user.name} is from ${user.hometown}.`
+  })
+}
