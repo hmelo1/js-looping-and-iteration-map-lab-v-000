@@ -3,6 +3,6 @@ function lowerCaseDrivers(drivers){
     return drivers.map(function (string) {return string.toLowerCase();});
 }
 
-function nameToAttributes(){
+function nameToAttributes(names){
 
 }
